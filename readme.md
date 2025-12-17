@@ -1,7 +1,9 @@
 # 123smartbms CAN → MQTT Gateway (ESP32-S3)
 
-![Device](483B3AD7-A75D-4442-BD84-FF483361F258_1_105_c.jpeg) ![BMS Connection](IMG_2761.jpeg)
-
+<p align="left">
+  <img src="483B3AD7-A75D-4442-BD84-FF483361F258_1_105_c.jpeg" width="400">
+  <img src="IMG_2761.jpeg" width="400">
+</p>
 ---
 
 ## 🇩🇪 Deutsch
