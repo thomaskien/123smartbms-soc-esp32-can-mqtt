@@ -8,7 +8,7 @@
 
 ## 🇩🇪 Deutsch
 
-Dieses Projekt liest den **State of Charge (SOC)** aus einem **123smartbms** über den
+Dieses Projekt liest den **State of Charge (SOC) + Watt + Volt** aus einem **123smartbms** über den
 **CAN-Bus** aus und stellt ihn per **MQTT** im Netzwerk zur Verfügung.
 
 Die Implementierung orientiert sich eng an der funktionierenden Referenz-Firmware
@@ -148,7 +148,7 @@ Ein rein passiver Listener (`LISTEN_ONLY`) führt zu:
 
 ## 🇬🇧 English
 
-This project reads the **State of Charge (SOC)** from a **123smartbms** via the
+This project reads the **State of Charge (SOC) + Volts + Watt** from a **123smartbms** via the
 **CAN bus** and publishes it to the network using **MQTT**.
 
 The implementation closely follows the proven reference firmware and is intentionally
