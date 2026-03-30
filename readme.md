@@ -82,6 +82,7 @@ bms/123smartbms/power_battery_w
 
 Beispiel-Output:
 <pre>
+root@smarthome:~# mosquitto_sub -v -h 10.0.x.x -p 1883 -t '#'  | grep -a 123
 ## idle
 bms/123smartbms/soc 60
 bms/123smartbms/voltage_v 52.7
