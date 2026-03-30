@@ -69,11 +69,15 @@ SOC = 0x31 = 49 %
 
 ### MQTT
 
-**Topic:**
+**Topics:**
 
 
 bms/123smartbms/soc
-
+bms/123smartbms/voltage_v
+bms/123smartbms/current_battery_a
+bms/123smartbms/current_in_a
+bms/123smartbms/current_out_a
+bms/123smartbms/power_battery_w
 
 **Payload:**
 
@@ -175,10 +179,15 @@ SOC = 0x31 = 49 %
 
 ### MQTT
 
-**Topic:**
+**Topics:**
 
 
 bms/123smartbms/soc
+bms/123smartbms/voltage_v
+bms/123smartbms/current_battery_a
+bms/123smartbms/current_in_a
+bms/123smartbms/current_out_a
+bms/123smartbms/power_battery_w
 
 
 **Payload:**
