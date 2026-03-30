@@ -80,6 +80,36 @@ bms/123smartbms/current_out_a
 bms/123smartbms/power_battery_w
 </pre>
 
+Beispiel-Output:
+<pre>
+## idle
+bms/123smartbms/soc 60
+bms/123smartbms/voltage_v 52.7
+bms/123smartbms/current_battery_a 0.0
+bms/123smartbms/current_in_a 0.0
+bms/123smartbms/current_out_a 0.0
+bms/123smartbms/power_battery_w 0
+
+
+## start discharge 400w
+bms/123smartbms/soc 60
+bms/123smartbms/voltage_v 52.5
+bms/123smartbms/current_battery_a -7.7
+bms/123smartbms/current_in_a 0.0
+bms/123smartbms/current_out_a 0.0
+bms/123smartbms/power_battery_w -404
+
+## start charge 1000w
+bms/123smartbms/soc 61
+bms/123smartbms/voltage_v 53.5
+bms/123smartbms/current_battery_a 22.0
+bms/123smartbms/current_in_a 0.0
+bms/123smartbms/current_out_a 0.0
+bms/123smartbms/power_battery_w 1177 
+</pre>
+
+
+
 **Payload:**
 
 
